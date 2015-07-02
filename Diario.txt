@@ -1,0 +1,35 @@
+- Rever Edição de Alunos(Urgente)
+- Bug das rotas
+- Boradas menu
+- Sincronismo Menu
+- Refresh tables após salvar/excluir
+- Edição Turma selecionar o ano atual
+- Placeholder ano Turma
+- CepController váriavél por referencia (CEP)
+- Perfumaria(Validações com promisse)
+- Validações fomulários
+- Edição copm turmas respectivas selecionadas(Aluno/Aula/Chamada)
+
+DTO
+{
+	AulaDto
+	{
+		Campo : AulaId
+	}
+}
+Service
+{
+	Aula
+	{
+		Linha métodos ADD
+		Realizar chamada
+	}
+}
+Repository
+{
+	Aluno
+	{
+		Métodos GetAll, GetById
+		GetAllByTurmaId
+	}
+}
